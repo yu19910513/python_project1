@@ -1,6 +1,6 @@
 const express = require('express')
 const {spawn} = require('child_process');
-const app = express()
+const app = express();
 const port = 80;
 app.get('/', (req, res) => {
 
